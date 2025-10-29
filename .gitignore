@@ -1,0 +1,103 @@
+# ========================
+# Java / Spring Boot
+# ========================
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ========================
+# Maven / Gradle
+# ========================
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar  # keep the wrapper jar
+!**/src/**/build/                   # allow build folders inside src
+
+# ========================
+# IntelliJ IDEA
+# ========================
+
+.idea/
+*.iml
+*.iws
+out/
+
+# ========================
+# Eclipse
+# ========================
+
+.project
+.classpath
+.settings/
+.bin/
+
+# ========================
+# VS Code
+# ========================
+
+.vscode/
+
+# ========================
+# Operating System Files
+# ========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ========================
+# Environment / Credentials
+# ========================
+
+# Spring Boot properties and env files (if containing secrets)
+application-*.yml
+application-*.yaml
+application-*.properties
+
+# dotenv / local config
+.env
+.env.*
+
+# ========================
+# Others
+# ========================
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Tests output
+test-output/
