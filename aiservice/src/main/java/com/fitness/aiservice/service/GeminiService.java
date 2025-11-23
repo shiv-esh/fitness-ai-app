@@ -1,6 +1,5 @@
 package com.fitness.aiservice.service;
 
-import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -15,7 +14,7 @@ public class GeminiService {
     private String geminiApiUrl;
 
     @Value("${GEMINI_API_KEY}")
-    private String geminiApiKey ;
+    private String geminiApiKey;
     public GeminiService(WebClient.Builder webclientBuilder) {
         this.webClient = webclientBuilder.build();
     }
